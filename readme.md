@@ -1,8 +1,8 @@
-#This is test rest api server created by Hakob Tumanyan
+# This is test rest api server created by Hakob Tumanyan
 
-#This rest server is serving a marketplace like list.am
+# This rest server is serving a marketplace like list.am
 
-##item part
+## item part
 
 item create method - http://localhost:3000/item/create -- method post
 item create method - http://localhost:3000/item/<itemId>/update -- method post
@@ -15,7 +15,7 @@ The fields for item
     4. Image urls -> Array type, required ---- imageUrls (array of image urls on the front-end project server)
 
 
-##user login part
+## user login part
 
 register user - http://localhost:3000/register -- method post
 
@@ -32,7 +32,7 @@ Fields for login
 
 activate user - http://localhost:3000/activate/<token> -- method get
 
-##subscribtion methods
+## subscribtion methods
 
 add to subscribe list - http://localhost:3000/subscribe -- method post
 
