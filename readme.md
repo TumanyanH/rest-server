@@ -6,9 +6,9 @@
 
 item create method - http://localhost:3000/item/create -- method post
 
-item create method - http://localhost:3000/item/<itemId>/update -- method post
+item create method - http://localhost:3000/item/:itemId/update -- method post
 
-item create method - http://localhost:3000/item/<itemId>/delete -- method get
+item create method - http://localhost:3000/item/:itemId/delete -- method get
 
 The fields for item 
 
@@ -41,7 +41,7 @@ Fields for login
  
     2. Password -> string type, required ---- password
 
-activate user - http://localhost:3000/activate/<token> -- method get
+activate user - http://localhost:3000/activate/:token -- method get
 
 ## subscribtion methods
 
