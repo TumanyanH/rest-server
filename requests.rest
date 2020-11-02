@@ -1,0 +1,8 @@
+POST http://localhost:3000/register
+content-type: application/json
+
+{
+    fullName : "Hakob Tumanyan",
+    email : "tumanyan-hakob@mail.ru",
+    password : "asdf1234"
+}
